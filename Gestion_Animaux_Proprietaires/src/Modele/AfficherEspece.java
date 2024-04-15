@@ -23,7 +23,7 @@ public class AfficherEspece {
 
 
         try {
-            URL url = new URL("http://172.20.10.2/api_Logiciel/GestionAnimauxEtProprietaires/AfficherEspece.php");
+            URL url = new URL("http://172.29.104.4/api_Logiciel/GAP/AfficherEspece.php");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("POST");
             conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
@@ -57,7 +57,7 @@ public class AfficherEspece {
     }
     public AfficherEspece(int id) {
     	try {
-            URL url = new URL("http://172.20.10.2/api_Logiciel/GestionAnimauxEtProprietaires/AfficherAnimaux.php");
+            URL url = new URL("http://172.29.104.4/api_Logiciel/GAP/AfficherAnimaux.php");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("POST");
             conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");

@@ -20,7 +20,7 @@ public class VerifierIdentifiant {
 		 boolean result = false;
 	        try {
 	            
-	            URL url = new URL("http://172.20.10.2/api_Logiciel/GestionAnimauxEtProprietaires/ConnexionPension.php");
+	            URL url = new URL("http://172.29.104.4/api_Logiciel/GAP/ConnexionPension.php");
 
 	            
 	            HttpURLConnection conn = (HttpURLConnection) url.openConnection();

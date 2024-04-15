@@ -22,7 +22,7 @@ public class SupprimerAnimal {
     public boolean getVerifSupprimer() {
         boolean result = false;
         try {
-            URL url = new URL("http://172.20.10.2/api_Logiciel/GestionAnimauxEtProprietaires/SupprimerAnimal.php");
+            URL url = new URL("http://172.29.104.4/api_Logiciel/GAP/SupprimerAnimal.php");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("POST");
             conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");

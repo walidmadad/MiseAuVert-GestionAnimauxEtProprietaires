@@ -24,7 +24,7 @@ public class AjouterAnimal {
 		boolean result = false;
 		try {
             
-            URL url = new URL("http://172.20.10.2/api_Logiciel/GestionAnimauxEtProprietaires/AjouterAnimal.php");
+            URL url = new URL("http://172.29.104.4/api_Logiciel/GAP/AjouterAnimal.php");
 
             
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();

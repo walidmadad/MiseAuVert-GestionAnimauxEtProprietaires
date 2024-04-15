@@ -25,7 +25,7 @@ public class CreerCompteClient {
     public boolean getCompteCreate() {
         boolean result = false;
         try {
-            URL url = new URL("http://172.20.10.2/api_Logiciel/GestionAnimauxEtProprietaires/CreerCompte.php");
+            URL url = new URL("http://172.29.104.4/api_Logiciel/GAP/CreerCompte.php");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("POST");
             conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");

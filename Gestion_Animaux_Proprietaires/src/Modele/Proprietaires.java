@@ -34,7 +34,7 @@ public class Proprietaires {
 	
 	public void getDonneesProprietairesFromBDD() {
 		try {
-            URL url = new URL("http://172.20.10.2/api_Logiciel/GestionAnimauxEtProprietaires/AfficherDonneesProprietaires.php");
+            URL url = new URL("http://172.29.104.4/api_Logiciel/GAP/AfficherDonneesProprietaires.php");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("POST");
             conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
@@ -75,7 +75,7 @@ public class Proprietaires {
 		this.info = new ArrayList<>();
 		this.id_prop = new ArrayList<>();
         try {
-            URL url = new URL("http://172.20.10.2/api_Logiciel/GestionAnimauxEtProprietaires/AfficherProprietaires.php");
+            URL url = new URL("http://172.29.104.4/api_Logiciel/GAP/AfficherProprietaires.php");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("POST");
             conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
@@ -111,7 +111,7 @@ public class Proprietaires {
 	public boolean modifierDonneesProp() {
 	    boolean result = false;
 	    try {
-	        URL url = new URL("http://172.20.10.2/api_Logiciel/GestionAnimauxEtProprietaires/ModifierProprietaire.php");
+	        URL url = new URL("http://172.29.104.4/api_Logiciel/GAP/ModifierProprietaire.php");
 	        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 	        conn.setRequestMethod("POST");
 	        conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
